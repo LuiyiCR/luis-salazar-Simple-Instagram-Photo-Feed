@@ -4,8 +4,58 @@
     box-sizing: border-box;
 }
 
+body {
+    background: lightgray;
+}
+
+.container {
+max-width: 35%;
+/* background: lightpink; */
+margin: 0 auto;
+}
+
 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    background: white;
+    margin-bottom: 40px;
+}
+
+p {
+    padding: 10px;
+}
+
+.header-paragraph {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ .date {
+    font-size: 14px;
+    color: gray;
+}
+
+.cards {
+}
+
+.first-card,
+.second-card,
+.third-card {
+    background: white;
+    margin-bottom: 40px;
+
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
 }
